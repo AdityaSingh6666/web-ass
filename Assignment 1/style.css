@@ -54,18 +54,20 @@ header nav a:hover {
 }
 
 .main main{
-    padding: 20px;
+    padding: 1rem;
     background: #fff;
-    margin: 20px auto;
+    margin: 2rem auto;
     max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 2px solid #004080;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    overflow:auto;
 }
 
 .main main h2{
@@ -177,7 +179,7 @@ header nav a:hover {
     align-items: center;
     margin-bottom: 100px;
     padding-bottom: 50px;
-    width: 80%;
+    max-width: 800px;
     overflow: auto;
 }
 
@@ -327,14 +329,6 @@ footer, .contact-page footer {
 
 footer p, .contact-page footer p {
     margin: 0;
-}
-
-.resume main {
-    max-width: 900px;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 2px solid #004080;
 }
 
 .resume section h3 {
